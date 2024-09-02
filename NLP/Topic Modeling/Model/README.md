@@ -21,13 +21,7 @@ SSAFY 11기 특화 프로젝트 "꿀모닝"에서
 <img src="./assets/image3.png" width="60%">
 </p>
 
-Topic Modeling의 목적은 결국, Document-Term 으로 구성된 matrix를 Document-topic, Topic-Importance, Topic-Tem 등으로 분해하는 것에 있다. 그를 위한 알고리즘으로, [Topic modeling algorithms](https://medium.com/@m.nath/topic-modeling-algorithms-b7f97cec6005)에서는 LDA, NMF, BERTopic 을 언급하여 각각에 대해 자세하게 알아보려 한다.
-
-### BERTopic
-
-### LDA
-
-### NMF
+Topic Modeling의 목적은 결국, Document-Term 으로 구성된 matrix (bag-of-words, TF-IDF로 얻는)를 Document-topic, Topic-Importance, Topic-Tem 등으로 분해하는 것에 있다. 그를 위한 알고리즘으로, [Topic modeling algorithms](https://medium.com/@m.nath/topic-modeling-algorithms-b7f97cec6005)에서는 LDA, NMF, BERTopic 을 언급하여 각각에 대해 자세하게 알아보려 한다.
 
 ## Reference
 
