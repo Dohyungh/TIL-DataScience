@@ -28,3 +28,24 @@ LDA는 결국, 확률적 잠재 의미 분석(Probabilistic Latent Semantic Anal
 <p align="center">
 <img src="./assets/image2.png" width="60%" />
 </p>
+
+## Methodology
+
+본래 주어진 K개의 토픽이 있고, 각 문서는 토픽의 조합(확률 분포)이며, 각 토픽은 단어의 조합인 상태에서 각 문서가 쓰여졌다고 가정한다. 결과물을 보고 원래의 토픽들과 해당 토픽에 속한 단어들을 찾아나가는 역공학 과정이 LDA이다.
+
+따라서, 결과적으로 토픽의 이름을 지어주지는 않는다.
+
+## Input
+
+DTM (Document-Term Matrix)이 주어진다.  
+따라서, 단어의 순서는 무관하다고 가정한다.
+
+## Output
+
+각 문서의 토픽에 대한 분포 (Document - Topic) 행렬과
+
+각 토픽의 단어에 대한 분포 (Topic - Term) 행렬이 결과로 주어진다.
+
+## Hyper Parameter
+
+토픽이 몇개인지 (K)를 정해주어야 한다.
