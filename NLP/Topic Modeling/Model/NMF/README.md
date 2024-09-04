@@ -71,10 +71,7 @@ Update Rule은 다음과 같다.
 구하는 과정에서 음의 가능성이 있는 식이 도출되는데, Learning Rate를 Data-driven한 값으로 특정해 그를 예방한 점이 특이하다.
 
 $$
-
-H:= H \circ \frac{W^TX}{W^TWH}
-
-
+H:= H \circ \frac{W^{T}X}{W^{T}WH}
 $$
 
 $$
